@@ -14,8 +14,6 @@
 | 非标直连规则 | 无 | ✅ 629 条自定义直连域名 |
 | 非标代理规则 | 无 | ✅ 16 条自定义代理域名 |
 | 非标端口规则 | 无 | ✅ 80/443 之外端口直连 |
-| 飞行模拟 2020 | 无 | ✅ 专用规则 |
-| 守望先锋 2 | 无 | ✅ 专用规则 |
 
 ## 代理组
 
@@ -69,12 +67,9 @@ https://raw.githubusercontent.com/LucasJX/acl4ssr-custom/main/ACL4SSR_Online_Ful
 │   ├── Custom_Direct_Classical.yaml ← 非标直连规则（629条）
 │   ├── Custom_Proxy_Classical.yaml  ← 非标代理规则（16条）
 │   └── Custom_Port_Direct.yaml      ← 非标端口（80/443之外直连）
-└── game_rule/
-    ├── Microsoft-Flight-Simulator-2020.yaml
-    └── Overwatch2.yaml
 ```
 
 ## 规则来源
 
 - [ACL4SSR](https://github.com/ACL4SSR/ACL4SSR) — 基础规则模板
-- [Aethersailor](https://github.com/heunghingwan/Aethersailor-Custom_OpenClash_Rules) — Steam CDN、游戏下载、非标规则、游戏专用规则
+- [Aethersailor](https://github.com/heunghingwan/Aethersailor-Custom_OpenClash_Rules) — Steam CDN、游戏下载、非标规则
